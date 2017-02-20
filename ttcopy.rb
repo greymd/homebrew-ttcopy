@@ -6,8 +6,8 @@ class Ttcopy < Formula
   head "https://github.com/greymd/ttcopy.git", :branch => "master"
 
   def install
-    lib.install "ttcp"
-    bin.install "ttcopy", "ttpaste"
+    lib.install "lib/ttcp"
+    bin.install "bin/ttcopy", "bin/ttpaste"
   end
 
   test do
